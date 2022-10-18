@@ -2487,6 +2487,10 @@
                               "message" : "All",
                               "comment" : ""
                             }
+                          },
+                          "checked" : {
+                            "type" : "JSON_LITERAL",
+                            "value" : true
                           }
                         }
                       }, {
@@ -2503,10 +2507,6 @@
                               "message" : "Legal",
                               "comment" : ""
                             }
-                          },
-                          "checked" : {
-                            "type" : "JSON_LITERAL",
-                            "value" : true
                           }
                         }
                       }, {
@@ -2597,7 +2597,7 @@
                     }
                   },
                   "eventMappings" : [ {
-                    "eventMappingId" : "cljjdhjffeeggaabudddgghhggrhwhnslv",
+                    "eventMappingId" : "cljjepbbaeeoaabbarddgghhggoziipyoccdd",
                     "isConfiguration" : false,
                     "offRowStorageId" : null,
                     "sourceEventApiName" : "sn_radio_buttons.NOW_RADIO_BUTTONS#VALUE_SET",
@@ -2609,6 +2609,17 @@
                     },
                     "sourceEventSysId" : null,
                     "targets" : [ {
+                      "broker" : null,
+                      "clientScript" : {
+                        "sysId" : "f99895a62f261110b220bea62799b6a8"
+                      },
+                      "conditional" : null,
+                      "declarativeAction" : null,
+                      "event" : null,
+                      "operation" : null,
+                      "targetId" : "cljjepbbaeeoaabbasddgghhggiyhhuiktgg",
+                      "type" : "CLIENT_SCRIPT"
+                    }, {
                       "broker" : null,
                       "clientScript" : null,
                       "conditional" : null,
@@ -2633,7 +2644,7 @@
                         "sysId" : "d1b4a9662f661110b220bea62799b6f3"
                       },
                       "operation" : null,
-                      "targetId" : "cljjdhjffeeggaabueddgghhggfflmsebqa",
+                      "targetId" : "cljjephdiiiaabbhaddgghhggddxccemvjjz",
                       "type" : "EVENT"
                     } ]
                   } ],
@@ -2758,13 +2769,13 @@
   "x_58872_needit.UPDATE_LIST_QUERY_AND_TITLE" : [ {
     "broker" : null,
     "clientScript" : {
-      "sysId" : "214ad9ea2f261110b220bea62799b6ee"
+      "sysId" : "d06486762f665110b220bea62799b6eb"
     },
     "conditional" : null,
     "declarativeAction" : null,
     "event" : null,
     "operation" : null,
-    "targetId" : "cljjdgpaagggaabjhddgghhggiifuhhjjbbaa",
+    "targetId" : "cljjeowjjaabaabbggdddgghhggweqigghhhhn",
     "type" : "CLIENT_SCRIPT"
   }, {
     "broker" : null,
@@ -2780,7 +2791,7 @@
       "sysId" : null
     },
     "operation" : null,
-    "targetId" : "cljjdgpddjyaabjiddgghhggltbbjjvrbbg",
+    "targetId" : "cljjepgdieeaabbhaaddgghhggkhayeurw",
     "type" : "EVENT"
   } ]
 }</internal_event_mappings>
@@ -2881,18 +2892,29 @@
     "type" : "JSON_LITERAL",
     "value" : "Active Needits"
   }
+}, {
+  "name" : "reqType",
+  "label" : "reqType",
+  "fieldType" : "",
+  "valueType" : "",
+  "shape" : "",
+  "description" : "",
+  "initialValue" : {
+    "type" : "JSON_LITERAL",
+    "value" : "all"
+  }
 } ]</state_properties>
         <sys_class_name>sys_ux_macroponent</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-01-10 20:06:36</sys_created_on>
         <sys_id>ca7e2e181b0d0510b81fdce7cc4bcb47</sys_id>
-        <sys_mod_count>52</sys_mod_count>
+        <sys_mod_count>58</sys_mod_count>
         <sys_name>Home</sys_name>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>sys_ux_macroponent_ca7e2e181b0d0510b81fdce7cc4bcb47</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-10-18 00:58:31</sys_updated_on>
+        <sys_updated_on>2022-10-18 21:22:26</sys_updated_on>
     </sys_ux_macroponent>
 </record_update>
